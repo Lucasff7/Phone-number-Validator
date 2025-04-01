@@ -86,6 +86,9 @@ button {
     left: 50%;
     transform: translateX(-50%);
 }
-.hidden {
-    display: none;
-  }
+.results{
+  font-size: 1.2rem;
+  padding: 5px;
+  text-align: var(--center-text);
+  margin: 10px 0;
+}

@@ -12,14 +12,15 @@
         <div class="camera"></div>
         <div class="screen">
             <label for="user-input">Enter a valid phone number:</label>
-            <input type="text" id="user-input" name="phone-number" placeholder="(XX) XXXXX-XXXX">
+            <input  maxlength="20" type="text" id="user-input" name="phone-number" placeholder="X XXX-XXX-XXXX">
             <div class="buttons">
                 <button id="check-btn">Check</button>
                 <button id="clear-btn">Clear</button>
             </div>
-            <div id="results-div hidden"></div>
+            <div id="results-div"></div>
         </div>
         <div class="home-button"></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
