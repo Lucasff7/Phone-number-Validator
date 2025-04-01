@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.phone {
+    width: 250px;
+    height: 500px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.camera {
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.screen {
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+input {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#check-btn {
+    background-color: green;
+    color: white;
+}
+#clear-btn {
+    background-color: red;
+    color: white;
+}
+#results-div {
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.home-button {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hidden {
+    display: none;
+  }
